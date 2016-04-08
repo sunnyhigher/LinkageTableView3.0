@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F33EA41CB741E10080A317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EA31CB741E10080A317 /* main.m */; };
+		18F33EA71CB741E10080A317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EA61CB741E10080A317 /* AppDelegate.m */; };
+		18F33EAA1CB741E10080A317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EA91CB741E10080A317 /* ViewController.m */; };
+		18F33EAD1CB741E10080A317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F33EAB1CB741E10080A317 /* Main.storyboard */; };
+		18F33EAF1CB741E10080A317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F33EAE1CB741E10080A317 /* Assets.xcassets */; };
+		18F33EB21CB741E10080A317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F33EB01CB741E10080A317 /* LaunchScreen.storyboard */; };
+		18F33EBD1CB741E10080A317 /* LinkageTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EBC1CB741E10080A317 /* LinkageTableViewTests.m */; };
+		18F33EC81CB741E10080A317 /* LinkageTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EC71CB741E10080A317 /* LinkageTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F33EB91CB741E10080A317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F33E971CB741E10080A317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F33E9E1CB741E10080A317;
+			remoteInfo = LinkageTableView;
+		};
+		18F33EC41CB741E10080A317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F33E971CB741E10080A317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F33E9E1CB741E10080A317;
+			remoteInfo = LinkageTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F33E9F1CB741E10080A317 /* LinkageTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkageTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F33EA31CB741E10080A317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F33EA51CB741E10080A317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F33EA61CB741E10080A317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F33EA81CB741E10080A317 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F33EA91CB741E10080A317 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F33EAC1CB741E10080A317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F33EAE1CB741E10080A317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F33EB11CB741E10080A317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F33EB31CB741E10080A317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F33EB81CB741E10080A317 /* LinkageTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkageTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F33EBC1CB741E10080A317 /* LinkageTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkageTableViewTests.m; sourceTree = "<group>"; };
+		18F33EBE1CB741E10080A317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F33EC31CB741E10080A317 /* LinkageTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkageTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F33EC71CB741E10080A317 /* LinkageTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkageTableViewUITests.m; sourceTree = "<group>"; };
+		18F33EC91CB741E10080A317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F33E9C1CB741E10080A317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EB51CB741E10080A317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EC01CB741E10080A317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F33E961CB741E10080A317 = {
+			isa = PBXGroup;
+			children = (
+				18F33EA11CB741E10080A317 /* LinkageTableView */,
+				18F33EBB1CB741E10080A317 /* LinkageTableViewTests */,
+				18F33EC61CB741E10080A317 /* LinkageTableViewUITests */,
+				18F33EA01CB741E10080A317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F33EA01CB741E10080A317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F33E9F1CB741E10080A317 /* LinkageTableView.app */,
+				18F33EB81CB741E10080A317 /* LinkageTableViewTests.xctest */,
+				18F33EC31CB741E10080A317 /* LinkageTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F33EA11CB741E10080A317 /* LinkageTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18F33EA51CB741E10080A317 /* AppDelegate.h */,
+				18F33EA61CB741E10080A317 /* AppDelegate.m */,
+				18F33EA81CB741E10080A317 /* ViewController.h */,
+				18F33EA91CB741E10080A317 /* ViewController.m */,
+				18F33EAB1CB741E10080A317 /* Main.storyboard */,
+				18F33EAE1CB741E10080A317 /* Assets.xcassets */,
+				18F33EB01CB741E10080A317 /* LaunchScreen.storyboard */,
+				18F33EB31CB741E10080A317 /* Info.plist */,
+				18F33EA21CB741E10080A317 /* Supporting Files */,
+			);
+			path = LinkageTableView;
+			sourceTree = "<group>";
+		};
+		18F33EA21CB741E10080A317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F33EA31CB741E10080A317 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F33EBB1CB741E10080A317 /* LinkageTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F33EBC1CB741E10080A317 /* LinkageTableViewTests.m */,
+				18F33EBE1CB741E10080A317 /* Info.plist */,
+			);
+			path = LinkageTableViewTests;
+			sourceTree = "<group>";
+		};
+		18F33EC61CB741E10080A317 /* LinkageTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F33EC71CB741E10080A317 /* LinkageTableViewUITests.m */,
+				18F33EC91CB741E10080A317 /* Info.plist */,
+			);
+			path = LinkageTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F33E9E1CB741E10080A317 /* LinkageTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F33ECC1CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableView" */;
+			buildPhases = (
+				18F33E9B1CB741E10080A317 /* Sources */,
+				18F33E9C1CB741E10080A317 /* Frameworks */,
+				18F33E9D1CB741E10080A317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkageTableView;
+			productName = LinkageTableView;
+			productReference = 18F33E9F1CB741E10080A317 /* LinkageTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F33EB71CB741E10080A317 /* LinkageTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F33ECF1CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewTests" */;
+			buildPhases = (
+				18F33EB41CB741E10080A317 /* Sources */,
+				18F33EB51CB741E10080A317 /* Frameworks */,
+				18F33EB61CB741E10080A317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F33EBA1CB741E10080A317 /* PBXTargetDependency */,
+			);
+			name = LinkageTableViewTests;
+			productName = LinkageTableViewTests;
+			productReference = 18F33EB81CB741E10080A317 /* LinkageTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F33EC21CB741E10080A317 /* LinkageTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F33ED21CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewUITests" */;
+			buildPhases = (
+				18F33EBF1CB741E10080A317 /* Sources */,
+				18F33EC01CB741E10080A317 /* Frameworks */,
+				18F33EC11CB741E10080A317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F33EC51CB741E10080A317 /* PBXTargetDependency */,
+			);
+			name = LinkageTableViewUITests;
+			productName = LinkageTableViewUITests;
+			productReference = 18F33EC31CB741E10080A317 /* LinkageTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F33E971CB741E10080A317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lianbi.com.cn;
+				TargetAttributes = {
+					18F33E9E1CB741E10080A317 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2F5RUKQZYC;
+					};
+					18F33EB71CB741E10080A317 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2F5RUKQZYC;
+						TestTargetID = 18F33E9E1CB741E10080A317;
+					};
+					18F33EC21CB741E10080A317 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2F5RUKQZYC;
+						TestTargetID = 18F33E9E1CB741E10080A317;
+					};
+				};
+			};
+			buildConfigurationList = 18F33E9A1CB741E10080A317 /* Build configuration list for PBXProject "LinkageTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F33E961CB741E10080A317;
+			productRefGroup = 18F33EA01CB741E10080A317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F33E9E1CB741E10080A317 /* LinkageTableView */,
+				18F33EB71CB741E10080A317 /* LinkageTableViewTests */,
+				18F33EC21CB741E10080A317 /* LinkageTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F33E9D1CB741E10080A317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F33EB21CB741E10080A317 /* LaunchScreen.storyboard in Resources */,
+				18F33EAF1CB741E10080A317 /* Assets.xcassets in Resources */,
+				18F33EAD1CB741E10080A317 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EB61CB741E10080A317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EC11CB741E10080A317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F33E9B1CB741E10080A317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F33EAA1CB741E10080A317 /* ViewController.m in Sources */,
+				18F33EA71CB741E10080A317 /* AppDelegate.m in Sources */,
+				18F33EA41CB741E10080A317 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EB41CB741E10080A317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F33EBD1CB741E10080A317 /* LinkageTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F33EBF1CB741E10080A317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F33EC81CB741E10080A317 /* LinkageTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F33EBA1CB741E10080A317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F33E9E1CB741E10080A317 /* LinkageTableView */;
+			targetProxy = 18F33EB91CB741E10080A317 /* PBXContainerItemProxy */;
+		};
+		18F33EC51CB741E10080A317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F33E9E1CB741E10080A317 /* LinkageTableView */;
+			targetProxy = 18F33EC41CB741E10080A317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F33EAB1CB741E10080A317 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F33EAC1CB741E10080A317 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F33EB01CB741E10080A317 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F33EB11CB741E10080A317 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F33ECA1CB741E10080A317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F33ECB1CB741E10080A317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F33ECD1CB741E10080A317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkageTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F33ECE1CB741E10080A317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkageTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F33ED01CB741E10080A317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinkageTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkageTableView.app/LinkageTableView";
+			};
+			name = Debug;
+		};
+		18F33ED11CB741E10080A317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinkageTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkageTableView.app/LinkageTableView";
+			};
+			name = Release;
+		};
+		18F33ED31CB741E10080A317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinkageTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinkageTableView;
+			};
+			name = Debug;
+		};
+		18F33ED41CB741E10080A317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinkageTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lianbi.LinkageTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinkageTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F33E9A1CB741E10080A317 /* Build configuration list for PBXProject "LinkageTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F33ECA1CB741E10080A317 /* Debug */,
+				18F33ECB1CB741E10080A317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F33ECC1CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F33ECD1CB741E10080A317 /* Debug */,
+				18F33ECE1CB741E10080A317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F33ECF1CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F33ED01CB741E10080A317 /* Debug */,
+				18F33ED11CB741E10080A317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F33ED21CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F33ED31CB741E10080A317 /* Debug */,
+				18F33ED41CB741E10080A317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F33E971CB741E10080A317 /* Project object */;
+}
