@@ -15,6 +15,7 @@
 		18F33EB21CB741E10080A317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F33EB01CB741E10080A317 /* LaunchScreen.storyboard */; };
 		18F33EBD1CB741E10080A317 /* LinkageTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EBC1CB741E10080A317 /* LinkageTableViewTests.m */; };
 		18F33EC81CB741E10080A317 /* LinkageTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33EC71CB741E10080A317 /* LinkageTableViewUITests.m */; };
+		18F33ED71CB743880080A317 /* ZSLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F33ED61CB743880080A317 /* ZSLinkageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18F33EC31CB741E10080A317 /* LinkageTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkageTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F33EC71CB741E10080A317 /* LinkageTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkageTableViewUITests.m; sourceTree = "<group>"; };
 		18F33EC91CB741E10080A317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F33ED51CB743880080A317 /* ZSLinkageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSLinkageView.h; sourceTree = "<group>"; };
+		18F33ED61CB743880080A317 /* ZSLinkageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSLinkageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18F33EA61CB741E10080A317 /* AppDelegate.m */,
 				18F33EA81CB741E10080A317 /* ViewController.h */,
 				18F33EA91CB741E10080A317 /* ViewController.m */,
+				18F33ED51CB743880080A317 /* ZSLinkageView.h */,
+				18F33ED61CB743880080A317 /* ZSLinkageView.m */,
 				18F33EAB1CB741E10080A317 /* Main.storyboard */,
 				18F33EAE1CB741E10080A317 /* Assets.xcassets */,
 				18F33EB01CB741E10080A317 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F33EAA1CB741E10080A317 /* ViewController.m in Sources */,
+				18F33ED71CB743880080A317 /* ZSLinkageView.m in Sources */,
 				18F33EA71CB741E10080A317 /* AppDelegate.m in Sources */,
 				18F33EA41CB741E10080A317 /* main.m in Sources */,
 			);
@@ -501,6 +507,7 @@
 				18F33ECE1CB741E10080A317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F33ECF1CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				18F33ED11CB741E10080A317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F33ED21CB741E10080A317 /* Build configuration list for PBXNativeTarget "LinkageTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				18F33ED41CB741E10080A317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
